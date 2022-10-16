@@ -1,0 +1,67 @@
+body{
+    width: 70vw;
+    margin: 10vh auto;
+}
+#Cvhead{
+    display: flex;
+    justify-content:space-between;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
+h2{
+    color: #2C84B9;
+}
+.pinfo{
+    margin-bottom:-20px ;
+    font-size: 17px;
+}
+#cvname p{
+    position: relative;
+    left: 20px;
+}
+.flexbox{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+.H1{
+    width:40%;
+}
+#hr1{
+    width: 9%;
+    position: relative;
+    right: 195px;
+}
+#hr2{
+    width: 70%;
+    position: relative;
+    right: 25px;
+    bottom: 12px;
+}
+pre{
+    font-family: 'Roboto', sans-serif;
+}
+@media only screen and (max-width:500px) {
+    body{
+        width: 70vw;
+        margin: 10vh auto;
+    }
+    #Cvhead{
+        display: flex;
+        justify-content:space-between;
+    }
+    img{
+        width: 150px;
+        height: 150px;
+    }
+    h2{
+        color: #2C84B9;
+    }
+    .flexbox{
+        display: flex;
+        justify-content:space-around;
+        flex-wrap: wrap;
+    }
+}
