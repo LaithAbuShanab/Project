@@ -21,13 +21,14 @@ h2{
     position: relative;
     left: 20px;
 }
-.flexbox{
+.flexbox {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     flex-wrap: wrap;
+    margin-left: 10%;
 }
 .H1{
-    width: 50%;
+    width: 40%;
 }
 #hr1{
     width: 9%;
