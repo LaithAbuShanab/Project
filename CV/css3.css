@@ -23,45 +23,51 @@ h2{
 }
 .flexbox{
     display: flex;
-    justify-content:space-around;
+    justify-content:space-between;
     flex-wrap: wrap;
 }
 .H1{
-    width:40%;
+    width: 50%;
 }
 #hr1{
     width: 9%;
-    position: relative;
-    right: 195px;
+    margin-left: 0px
 }
 #hr2{
     width: 70%;
-    position: relative;
-    right: 25px;
-    bottom: 12px;
+    margin: -11px 1px 10px 5px;
 }
 pre{
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto, sans-serif;
+    text-align: justify;
 }
-@media only screen and (max-width:500px) {
-    body{
-        width: 70vw;
-        margin: 10vh auto;
-    }
+@media only screen and (max-width: 930px){
     #Cvhead{
+        flex-direction: column;
+        align-items: center;
+        }
+        #hr12{
+            margin: inherit;
+        }
+        #hr2 {
+            width: 90%;
+            margin: -11px 1px 10px 5px;
+        }
+
+}
+@media only screen and (max-width: 885px){
+    .flexbox {
         display: flex;
-        justify-content:space-between;
+        flex-direction: column;
+        text-align: center;
     }
-    img{
-        width: 150px;
-        height: 150px;
+    .H1 {
+        width: 50%;
+        margin: auto;
     }
-    h2{
-        color: #2C84B9;
+    #hr2 {
+        width: 100%;
+        margin: -11px 1px 10px 5px;
     }
-    .flexbox{
-        display: flex;
-        justify-content:space-around;
-        flex-wrap: wrap;
-    }
+
 }
