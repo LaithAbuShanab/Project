@@ -1,0 +1,59 @@
+#gallery-list ul li a{
+    margin-right: 4rem;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 300px;
+}
+
+.col-3{
+    margin-bottom: 20px;
+}
+
+.col-4{
+    margin: 5px;
+    margin-left: 0;
+}
+
+.col-4 img{
+    width: 100%;
+    height: 250px;
+}
+footer{
+    background-color:#e3f2fd;
+    height: 56px;
+}
+
+
+
+.form-example1{
+    height: 100%;
+    margin: 22px;
+    background-color: aqua;
+}
+
+.col form{
+    margin-top: 150px;
+    margin-left: -25%;
+}
+
+.col form label{
+    margin-top: 10px;
+}
+
+.col form fieldset{
+    margin-top: 10px;
+}
+
+.col form button{
+    margin:10px;
+    padding: 9px;
+    background-color: #0d6efd;
+    border: solid 1px gray;
+    border-radius: 5px;
+}
+
+#card{
+    width: 360px;
+}
