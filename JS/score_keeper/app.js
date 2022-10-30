@@ -52,11 +52,6 @@ function AppPoint(player){
         else if(p2score==4){
             p2score--;
             p2Point.textContent=p2score;
-        }else{
-            p1score++;
-            p2score--;
-            p1Point.textContent=p1score;
-            p2Point.textContent=p2score;
         }
         }else{
             if(p1score==0){
@@ -75,16 +70,7 @@ function AppPoint(player){
             p1score--;
             p1Point.textContent=p1score;
         }
-        else{
-            //App Point To The Score 
-            p2score++;
-            p1score--;
-            //Print The Score On The Player Point Section   
-            p1Point.textContent=p1score;
-            p2Point.textContent=p2score;
-        }
     }}
-
 
 function endGame(){
         let winnerPlyerName = null ;
